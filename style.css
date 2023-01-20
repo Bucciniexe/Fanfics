@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/originals/5c/d7/8e/5cd78ee76d5842f697052b650a2276e5.gif");
+    background-size: cover;
+}
+
+body * {
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+header {    
+  text-align: center;
+  font-size: 10px;
+  padding-top: 25px;   
+}
+
+header div {   
+    width: 125px;
+    margin: auto;
+    display: flex;
+    padding: 5px;
+    transition: transform .3s;
+}
+
+header div:hover {
+    transform: scale(1.1)
+}
+
+
+header div img {    
+    width: 100%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+}
+
+main {
+    max-width: 580px;
+    width: 90%;
+    margin: 32px auto;
+    display: grid;
+    gap: 25px;
+}
+
+section {
+    color: rgb(255, 255, 255);
+    padding-top: 4px;
+    
+}
+
+section div {
+    background-color: #1c1c1c79;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 25px;
+}
+
+
+
+section p {
+    letter-spacing: -0.18px;
+    color: #ffffff;
+}
+
+section ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 24px;
+}
+
+section ul li {
+    transition: transform .3s;
+}
+
+section ul li:hover {
+    transform: scale(1.1)
+}
+
+.Fanfics-list img {
+    width: 90px;
+    border-radius: 8px;
+}
+
+.Read-list img {
+    border-radius: 50%; 
+    width: 60px;
+    border: 1px solid #ffffff;
+    filter: saturate(0%);
+
+
+
+@keyframes fromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(30px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
