@@ -10,7 +10,7 @@ ul {
 }
 
 body {
-    background-image: url("https://i.pinimg.com/originals/5c/d7/8e/5cd78ee76d5842f697052b650a2276e5.gif");
+    background-image: url("https://i.pinimg.com/564x/b9/e6/2f/b9e62fe94f20524b6abf5ce8098fa6a3.jpg");
     background-size: cover;
 }
 
@@ -19,6 +19,7 @@ body * {
     font-family: 'Lora', serif;
     font-size: 20px;
     line-height: 150%;
+
 }
 
 header {    
@@ -91,17 +92,23 @@ section ul li:hover {
     transform: scale(1.1)
 }
 
+.Headcanons-list img {
+    width: 90px;
+    border-radius: 8px;
+}
+
 .Fanfics-list img {
     width: 90px;
     border-radius: 8px;
 }
 
-.Read-list img {
+.Read-list img {    
     border-radius: 50%; 
     width: 60px;
-    border: 1px solid #ffffff;
-    filter: saturate(0%);
+    height: 60px;
+    border: 1px solid #ffffff;  
 
+}
 
 
 @keyframes fromBottom {
